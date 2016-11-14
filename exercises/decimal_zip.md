@@ -6,7 +6,7 @@ The decimal zip of two non-negative integers A and B is an integer C whose decim
 * the fourth digit of C is the second digit of B;
 * etc...
 
-If one of the integers A and B runs out of digits, the remaining digits of the other integer are appended to the result.
+When one of the integers A and B runs out of digits, the remaining digits of the other integer are appended to the result.
 
 The decimal representation of 0 is "0".
 
