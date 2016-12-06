@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 class Decimalzip
 
   def decimal_zip(int1, int2)
@@ -14,3 +15,8 @@ class Decimalzip
     @result.join.to_i
   end
 end
+first_num = ARGV[0]
+second_num = ARGV[1]
+
+program = Decimalzip.new
+puts program.decimal_zip(first_num, second_num)
